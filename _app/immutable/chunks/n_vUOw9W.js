@@ -1,0 +1,1 @@
+import{Z as e}from"./DBe2ffI9.js";var t=e([]),n=1;function r(e){let n=t.findIndex(t=>t.id===e);n>=0&&t.splice(n,1)}function i(e,i=`ok`,a){let o=n++;t.push({id:o,text:e,tone:i,action:a}),setTimeout(()=>r(o),a?8e3:i===`error`?7e3:3500)}export{i as n,t as r,r as t};
