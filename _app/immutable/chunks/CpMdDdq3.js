@@ -1,1 +1,0 @@
-import{E as e,k as t}from"./C3_WLfWP.js";var n=t(`<svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><rect x="1" y="13" width="7" height="9"></rect><rect x="8.5" y="6" width="7" height="16"></rect><rect x="16" y="10" width="7" height="12"></rect></svg>`);function r(t){var r=n();e(t,r)}export{r as t};

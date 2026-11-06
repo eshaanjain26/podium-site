@@ -1,1 +1,0 @@
-import{K as e}from"./C3_WLfWP.js";var t=e([]),n=1;function r(e,r=`ok`){let i=n++;t.push({id:i,text:e,tone:r}),setTimeout(()=>{let e=t.findIndex(e=>e.id===i);e>=0&&t.splice(e,1)},r===`error`?7e3:3500)}export{t as n,r as t};

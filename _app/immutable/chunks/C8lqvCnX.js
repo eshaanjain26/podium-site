@@ -1,1 +1,0 @@
-import{K as e}from"./C3_WLfWP.js";import{n as t}from"./IMC1n-t4.js";var n=e({event:null,error:!1}),r=null;function i(e=!1){return r&&!e||(r=t.get(`/public/event`).then(e=>{n.event=e,n.error=!1}).catch(()=>{n.error=!0})),r}export{n,i as t};
