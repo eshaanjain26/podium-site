@@ -1,1 +1,0 @@
-import{A as e,C as t,K as n,O as r,S as i,at as a,nt as o,tt as s}from"../chunks/BEniJAMX.js";import{t as c}from"../chunks/DSg1lebR.js";var l=e(`<div class="embed"><!></div>`);function u(e,u){o(u,!0),i(()=>{c()});var d=l(),f=n(d);t(f,()=>u.children),a(d),r(e,d),s()}export{u as component};

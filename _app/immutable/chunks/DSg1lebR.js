@@ -1,1 +1,0 @@
-import{X as e}from"./BEniJAMX.js";import{r as t}from"./CTOgPvxx.js";import{n}from"./IMC1n-t4.js";var r=e({event:null,error:!1}),i=null;function a(e=!1){return i&&!e||(i=n.get(`/public/event`).then(e=>{r.event=e,t(e.brand),r.error=!1}).catch(()=>{r.error=!0})),i}export{r as n,a as t};

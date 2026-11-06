@@ -1,0 +1,1 @@
+var e=[`firstName`,`lastName`,`sessionTitle`,`eventName`,`eventDates`,`venue`,`slot`,`portalLink`],t=(e,t)=>e.replace(/\{\{\s*(\w+)\s*\}\}/g,(e,n)=>n in t?String(t[n]??``):e),n=(e,t,n)=>`mailto:${encodeURIComponent(e)}?subject=${encodeURIComponent(t)}&body=${encodeURIComponent(n)}`;export{n,t as r,e as t};
