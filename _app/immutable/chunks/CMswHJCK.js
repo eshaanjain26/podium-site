@@ -1,0 +1,1 @@
+function e(e,t){let n=()=>{e.scrollTop=e.scrollHeight};return n(),{update(){n(),requestAnimationFrame(n)}}}export{e as t};
