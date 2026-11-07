@@ -1,1 +1,0 @@
-import{Q as e}from"./cT8K11Vs.js";import{r as t}from"./DNpzg1eP.js";import{r as n}from"./Cgmu8lAl.js";var r=e({event:null,error:!1}),i=null;function a(e=!1){return i&&!e||(i=n.get(`/public/event`).then(e=>{r.event=e,t(e.brand),r.error=!1}).catch(()=>{r.error=!0})),i}export{r as n,a as t};
