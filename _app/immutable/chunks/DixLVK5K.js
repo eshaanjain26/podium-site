@@ -1,1 +1,0 @@
-import{Z as e}from"./DBe2ffI9.js";var t=e({open:!1,options:null}),n=null;function r(e){return n?.(!1),t.options=e,t.open=!0,new Promise(e=>{n=e})}function i(e){t.open=!1,n?.(e),n=null}export{r as n,t as r,i as t};
